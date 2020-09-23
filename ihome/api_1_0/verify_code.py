@@ -106,11 +106,15 @@ def get_sms_code(mobile):
         print(resp)
         return resp
 
-    result = send_message()
-    if result == 0:
-        # 发送成功
-        return jsonify(error=RET.OK, errmsg="发送成功")
-    else:
-        return jsonify(error=RET.THIRDERR, errmsg="发送失败")
+    try:
+        result = send_message()
+        if result == 0:
+            # 发送成功
+            return jsonify(error=RET.OK, errmsg="发送成功")
+        else:
+            return jsonify(error=RET.THIRDERR, errmsg="发送失败")
+    except Exception as e:
+        current_app.logger.error(e)
+        return jsonify(error=RET.THIRDERR, errmsg="发送异常")
 
     # 返回值
