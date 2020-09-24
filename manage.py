@@ -5,7 +5,9 @@ from flask_script import Manager
 from flask_migrate import Migrate, MigrateCommand
 
 # 创建flask的应用对象
-app = create_app("product")
+# 测试develop
+# 开发product
+app = create_app("develop")
 manager = Manager(app)
 
 Migrate(app, db)

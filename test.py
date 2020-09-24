@@ -9,9 +9,12 @@ def send_message():
     sdk = SmsSDK(accId, accToken, appId)
     tid = '1'
     mobile = '18168580698'
-    datas = ('变量1', '变量2')
+    datas = ('786567', '5')
     resp = sdk.sendMessage(tid, mobile, datas)
-    print(resp)
+    # print(resp)
+    # print("1")
+    return resp
 
-
-send_message()
+result = send_message()
+result = eval(result)
+print(result["statusCode"])
