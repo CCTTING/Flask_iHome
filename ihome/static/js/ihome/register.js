@@ -94,12 +94,16 @@ $(document).ready(function () {
     $("#password2").focus(function () {
         $("#password2-err").hide();
     });
+
+    // 为表单的提交补充自定义的函数行为（事件）
     $(".form-register").submit(function (e) {
+        // 阻止浏览器对于表单的默认自动提交行为
         e.preventDefault();
-        mobile = $("#mobile").val();
-        phoneCode = $("#phonecode").val();
-        passwd = $("#password").val();
-        passwd2 = $("#password2").val();
+
+        var mobile = $("#mobile").val();
+        var phoneCode = $("#phonecode").val();
+        var passwd = $("#password").val();
+        var passwd2 = $("#password2").val();
         if (!mobile) {
             $("#mobile-err span").html("请填写正确的手机号！");
             $("#mobile-err").show();
@@ -120,5 +124,27 @@ $(document).ready(function () {
             $("#password2-err").show();
             return;
         }
+
+        // 调用ajax向后端发送请求
+        var req_data = {
+            mobile: mobile,
+            sms_code: phoneCode,
+            password: passwd,
+            password2: passwd2
+        };
+        var req_json = JSON.stringify(req_data)
+        $.ajax({
+            url:"/api/v1.0/users",
+            type: "post",
+            data:req_json,
+            contentType:"application/json",
+            dataType:"json",
+            success: function (resp) {
+                if (resp.errno=="0"){
+                    // 注册成功挑战到主页
+                    location.href = "/index.html"
+                }
+            }
+        })
     });
 })
