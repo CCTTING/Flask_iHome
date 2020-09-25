@@ -147,4 +147,5 @@ def get_sms_code(mobile):
         # 发送成功
         return jsonify(errno=RET.OK, errmsg="发送成功")
     else:
+        current_app.logger.error(result["statusCode"])
         return jsonify(errno=RET.THIRDERR, errmsg="发送失败")

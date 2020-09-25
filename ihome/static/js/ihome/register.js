@@ -141,8 +141,10 @@ $(document).ready(function () {
             dataType:"json",
             success: function (resp) {
                 if (resp.errno=="0"){
-                    // 注册成功挑战到主页
+                    // 注册成功，跳转到主页
                     location.href = "/index.html"
+                }else {
+                    alert(resp.errmsg);
                 }
             }
         })
