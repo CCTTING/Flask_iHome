@@ -1268,3 +1268,155 @@ INFO _internal.py:113 127.0.0.1 - - [25/Sep/2020 17:55:17] "[37mGET /static/ima
 INFO _internal.py:113 127.0.0.1 - - [25/Sep/2020 17:55:17] "[37mGET /static/images/home02.jpg HTTP/1.1[0m" 200 -
 INFO _internal.py:113 127.0.0.1 - - [25/Sep/2020 17:55:17] "[37mGET /static/images/home03.jpg HTTP/1.1[0m" 200 -
 INFO _internal.py:113 127.0.0.1 - - [25/Sep/2020 17:55:17] "[33mGET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1[0m" 404 -
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 265-380-126
+INFO _internal.py:113 127.0.0.1 - - [26/Sep/2020 10:39:10] "[37mGET / HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [26/Sep/2020 10:39:10] "[36mGET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [26/Sep/2020 10:39:10] "[36mGET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [26/Sep/2020 10:39:10] "[36mGET /static/css/reset.css HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [26/Sep/2020 10:39:10] "[36mGET /static/plugins/swiper/css/swiper.min.css HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [26/Sep/2020 10:39:10] "[36mGET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [26/Sep/2020 10:39:10] "[36mGET /static/css/ihome/main.css HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [26/Sep/2020 10:39:10] "[36mGET /static/css/ihome/index.css HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [26/Sep/2020 10:39:10] "[36mGET /static/js/jquery.min.js HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [26/Sep/2020 10:39:10] "[36mGET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [26/Sep/2020 10:39:10] "[36mGET /static/plugins/swiper/js/swiper.jquery.min.js HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [26/Sep/2020 10:39:10] "[36mGET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [26/Sep/2020 10:39:10] "[36mGET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [26/Sep/2020 10:39:10] "[36mGET /static/js/template.js HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [26/Sep/2020 10:39:10] "[36mGET /static/js/ihome/index.js HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [26/Sep/2020 10:39:10] "[36mGET /static/images/logo@128x59.png HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [26/Sep/2020 10:39:10] "[36mGET /static/images/home01.jpg HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [26/Sep/2020 10:39:10] "[36mGET /static/images/home02.jpg HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [26/Sep/2020 10:39:10] "[36mGET /static/images/home03.jpg HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [26/Sep/2020 10:39:10] "[36mGET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [26/Sep/2020 10:39:17] "[33mGET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [26/Sep/2020 10:39:17] "[36mGET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [26/Sep/2020 10:39:19] "[36mGET /register.html HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [26/Sep/2020 10:39:19] "[36mGET /static/css/ihome/register.css HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [26/Sep/2020 10:39:19] "[36mGET /static/js/ihome/register.js HTTP/1.1[0m" 304 -
+ERROR verify_code.py:36 ***************************
+ERROR verify_code.py:37 获取图片中。。。
+INFO _internal.py:113 127.0.0.1 - - [26/Sep/2020 10:39:19] "[37mGET /api/v1.0/image_codes/8451b490-c33b-4297-9b5b-169077030c89 HTTP/1.1[0m" 200 -
+ERROR verify_code.py:36 ***************************
+ERROR verify_code.py:37 获取图片中。。。
+INFO _internal.py:113 127.0.0.1 - - [26/Sep/2020 10:43:53] "[37mGET /api/v1.0/image_codes/699301c0-2bb7-421f-b282-919c1ec5f34e HTTP/1.1[0m" 200 -
+DEBUG verify_code.py:71 ************************************
+DEBUG verify_code.py:72 正在获取验证码。。。：STGG
+DEBUG connectionpool.py:939 Starting new HTTPS connection (1): app.cloopen.com:8883
+DEBUG connectionpool.py:433 https://app.cloopen.com:8883 "POST /2013-12-26/Accounts/8a216da874af5fff0174b997014c04eb/SMS/TemplateSMS?sig=C8DE81805308ACB6B4BF77C47F8E28CE HTTP/1.1" 200 121
+INFO _internal.py:113 127.0.0.1 - - [26/Sep/2020 10:44:05] "[37mGET /api/v1.0/sms_codes/18168580698?image_code=STGG&image_code_id=699301c0-2bb7-421f-b282-919c1ec5f34e HTTP/1.1[0m" 200 -
+INFO passport.py:42 ***************sms_code:867862
+INFO passport.py:43 ***************real_sms_code:867862
+INFO _internal.py:113 127.0.0.1 - - [26/Sep/2020 10:44:24] "[37mPOST /api/v1.0/users HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [26/Sep/2020 10:44:24] "[36mGET /index.html HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [26/Sep/2020 10:44:24] "[33mGET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1[0m" 404 -
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 265-380-126
+INFO _internal.py:113 127.0.0.1 - - [27/Sep/2020 15:06:59] "[36mGET / HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [27/Sep/2020 15:06:59] "[36mGET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [27/Sep/2020 15:06:59] "[36mGET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [27/Sep/2020 15:06:59] "[36mGET /static/css/reset.css HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [27/Sep/2020 15:06:59] "[36mGET /static/plugins/swiper/css/swiper.min.css HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [27/Sep/2020 15:06:59] "[36mGET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [27/Sep/2020 15:06:59] "[36mGET /static/css/ihome/main.css HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [27/Sep/2020 15:06:59] "[36mGET /static/css/ihome/index.css HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [27/Sep/2020 15:06:59] "[36mGET /static/js/jquery.min.js HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [27/Sep/2020 15:06:59] "[36mGET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [27/Sep/2020 15:06:59] "[36mGET /static/plugins/swiper/js/swiper.jquery.min.js HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [27/Sep/2020 15:06:59] "[36mGET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [27/Sep/2020 15:06:59] "[36mGET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [27/Sep/2020 15:06:59] "[36mGET /static/js/template.js HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [27/Sep/2020 15:06:59] "[36mGET /static/js/ihome/index.js HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [27/Sep/2020 15:06:59] "[36mGET /static/images/logo@128x59.png HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [27/Sep/2020 15:06:59] "[36mGET /static/images/home01.jpg HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [27/Sep/2020 15:06:59] "[36mGET /static/images/home02.jpg HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [27/Sep/2020 15:06:59] "[36mGET /static/images/home03.jpg HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [27/Sep/2020 15:07:00] "[36mGET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [27/Sep/2020 15:07:01] "[33mGET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [27/Sep/2020 15:07:01] "[36mGET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [27/Sep/2020 15:07:04] "[36mGET /register.html HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [27/Sep/2020 15:07:04] "[36mGET /static/css/ihome/register.css HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [27/Sep/2020 15:07:04] "[36mGET /static/js/ihome/register.js HTTP/1.1[0m" 304 -
+ERROR verify_code.py:36 ***************************
+ERROR verify_code.py:37 获取图片中。。。
+INFO _internal.py:113 127.0.0.1 - - [27/Sep/2020 15:07:04] "[37mGET /api/v1.0/image_codes/ad8d3bdc-b2c2-491a-911d-634088ce183f HTTP/1.1[0m" 200 -
+DEBUG verify_code.py:71 ************************************
+DEBUG verify_code.py:72 正在获取验证码。。。：6EZP
+DEBUG connectionpool.py:939 Starting new HTTPS connection (1): app.cloopen.com:8883
+DEBUG connectionpool.py:433 https://app.cloopen.com:8883 "POST /2013-12-26/Accounts/8a216da874af5fff0174b997014c04eb/SMS/TemplateSMS?sig=87D13EAAD65EA5777CC896CCA943083F HTTP/1.1" 200 121
+INFO _internal.py:113 127.0.0.1 - - [27/Sep/2020 15:07:32] "[37mGET /api/v1.0/sms_codes/18168580698?image_code=6EZP&image_code_id=ad8d3bdc-b2c2-491a-911d-634088ce183f HTTP/1.1[0m" 200 -
+INFO csrf.py:258 The CSRF token is missing.
+INFO _internal.py:113 127.0.0.1 - - [27/Sep/2020 15:07:53] "[31m[1mPOST /api/v1.0/users HTTP/1.1[0m" 400 -
+INFO _internal.py:113 127.0.0.1 - - [27/Sep/2020 15:21:32] "[33mGET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [27/Sep/2020 15:29:53] "[37mGET /register.html HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [27/Sep/2020 15:29:53] "[37mGET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [27/Sep/2020 15:29:53] "[37mGET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [27/Sep/2020 15:29:53] "[37mGET /static/css/ihome/main.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [27/Sep/2020 15:29:53] "[37mGET /static/css/ihome/register.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [27/Sep/2020 15:29:53] "[37mGET /static/js/jquery.min.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [27/Sep/2020 15:29:53] "[37mGET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [27/Sep/2020 15:29:53] "[37mGET /static/js/ihome/register.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [27/Sep/2020 15:29:53] "[37mGET /static/images/logo@128x59.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [27/Sep/2020 15:29:53] "[37mGET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [27/Sep/2020 15:29:53] "[37mGET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 200 -
+ERROR verify_code.py:36 ***************************
+ERROR verify_code.py:37 获取图片中。。。
+INFO _internal.py:113 127.0.0.1 - - [27/Sep/2020 15:29:53] "[37mGET /api/v1.0/image_codes/ea809fb9-1eae-472b-bc19-7a7bf9b02507 HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 265-380-126
+INFO _internal.py:113 127.0.0.1 - - [27/Sep/2020 15:30:10] "[36mGET /register.html HTTP/1.1[0m" 304 -
+ERROR verify_code.py:36 ***************************
+ERROR verify_code.py:37 获取图片中。。。
+INFO _internal.py:113 127.0.0.1 - - [27/Sep/2020 15:30:10] "[37mGET /api/v1.0/image_codes/ba4f8769-35bf-4e28-9fc9-f7284b4c326b HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [27/Sep/2020 15:30:10] "[37mGET /favicon.ico HTTP/1.1[0m" 200 -
+DEBUG verify_code.py:71 ************************************
+DEBUG verify_code.py:72 正在获取验证码。。。：FRA4
+DEBUG connectionpool.py:939 Starting new HTTPS connection (1): app.cloopen.com:8883
+DEBUG connectionpool.py:433 https://app.cloopen.com:8883 "POST /2013-12-26/Accounts/8a216da874af5fff0174b997014c04eb/SMS/TemplateSMS?sig=A2CDA6D407270DBE7A8D7DC31E3F8A7E HTTP/1.1" 200 121
+INFO _internal.py:113 127.0.0.1 - - [27/Sep/2020 15:30:21] "[37mGET /api/v1.0/sms_codes/18168580698?image_code=fra4&image_code_id=ba4f8769-35bf-4e28-9fc9-f7284b4c326b HTTP/1.1[0m" 200 -
+INFO passport.py:42 ***************sms_code:719397
+INFO passport.py:43 ***************real_sms_code:719397
+INFO _internal.py:113 127.0.0.1 - - [27/Sep/2020 15:30:42] "[37mPOST /api/v1.0/users HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [27/Sep/2020 15:30:42] "[37mGET /index.html HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [27/Sep/2020 15:30:42] "[37mGET /static/css/reset.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [27/Sep/2020 15:30:42] "[37mGET /static/plugins/swiper/css/swiper.min.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [27/Sep/2020 15:30:42] "[37mGET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [27/Sep/2020 15:30:42] "[37mGET /static/css/ihome/index.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [27/Sep/2020 15:30:42] "[37mGET /static/plugins/swiper/js/swiper.jquery.min.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [27/Sep/2020 15:30:42] "[37mGET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [27/Sep/2020 15:30:42] "[37mGET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [27/Sep/2020 15:30:42] "[37mGET /static/js/template.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [27/Sep/2020 15:30:42] "[37mGET /static/js/ihome/index.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [27/Sep/2020 15:30:42] "[37mGET /static/images/home01.jpg HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [27/Sep/2020 15:30:42] "[37mGET /static/images/home02.jpg HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [27/Sep/2020 15:30:42] "[37mGET /static/images/home03.jpg HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [27/Sep/2020 15:30:42] "[33mGET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1[0m" 404 -
+INFO _internal.py:113  * Detected change in '/Users/caoting/PycharmProjects/Flask_iHome/ihome/api_1_0/passport.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 265-380-126
+INFO _internal.py:113  * Detected change in '/Users/caoting/PycharmProjects/Flask_iHome/ihome/api_1_0/passport.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 265-380-126
+INFO _internal.py:113  * Detected change in '/Users/caoting/PycharmProjects/Flask_iHome/ihome/api_1_0/passport.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 265-380-126
+INFO _internal.py:113  * Detected change in '/Users/caoting/PycharmProjects/Flask_iHome/ihome/api_1_0/passport.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 265-380-126
+INFO _internal.py:113  * Detected change in '/Users/caoting/PycharmProjects/Flask_iHome/ihome/api_1_0/passport.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 265-380-126
+INFO _internal.py:113  * Detected change in '/Users/caoting/PycharmProjects/Flask_iHome/ihome/api_1_0/passport.py', reloading
+INFO _internal.py:113  * Restarting with stat

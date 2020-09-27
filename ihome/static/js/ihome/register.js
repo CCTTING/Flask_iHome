@@ -1,7 +1,11 @@
+// js读取cookie的方法
 function getCookie(name) {
     var r = document.cookie.match("\\b" + name + "=([^;]*)\\b");
+    //三步运算符
+    // r为真返回r[1],r不存在则返回undefined
     return r ? r[1] : undefined;
 }
+
 
 //保存图片验证码编号
 var imageCodeId = "";
@@ -130,20 +134,24 @@ $(document).ready(function () {
             mobile: mobile,
             sms_code: phoneCode,
             password: passwd,
-            password2: passwd2
+            password2: passwd2,
+            csrf_token: "xxxx"
         };
         var req_json = JSON.stringify(req_data)
         $.ajax({
-            url:"/api/v1.0/users",
+            url: "/api/v1.0/users",
             type: "post",
-            data:req_json,
-            contentType:"application/json",
-            dataType:"json",
+            data: req_json,
+            contentType: "application/json",
+            dataType: "json",
+            headers: {
+                "X-CSRFToken": getCookie("csrf_token")
+            },// 请求头，将csrf_token值放到请求头中，方便后端csrf进行验证
             success: function (resp) {
-                if (resp.errno=="0"){
+                if (resp.errno == "0") {
                     // 注册成功，跳转到主页
                     location.href = "/index.html"
-                }else {
+                } else {
                     alert(resp.errmsg);
                 }
             }
