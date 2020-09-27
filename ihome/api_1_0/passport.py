@@ -136,9 +136,13 @@ def login():
         current_app.logger.error(e)
         return jsonify(errno=RET.DBERR, errmsg="获取用户信息失败")
 
-    if user is None:
+    # 用数据库的密码与用户填写的密码进行对比验证
+    if user is None or User.check_password(password):
+        # 如果验证失败，记录错误次数，返回信息
+        try:
+            # access_nums is
         return jsonify(errno=RET.DATAERR, errmsg="用户名或密码错误")
 
-    # 用数据库的密码与用户填写的密码进行对比验证
+
     # 如果验证相同成功，保存登录状态，在session中
     # 如果验证失败，记录错误次数，返回信息
